@@ -1,13 +1,18 @@
 # copilot-prompt-engineering
-Examples of prompt engineering with Copilot
+
+This repo contains documents that Copilot can follow to perform tasks.
+
+For other examples, see https://docs.github.com/en/copilot/copilot-chat-cookbook.
 
 ## Prompts
 
-### ts_to_json
+### Generate sample JSON from a Typescript type
+
+This document contains a hidden instruction for Copilot to prompt for more information if the user doesn't provide a type in the initial request.
 
 #### Prompt
 
-> Follow #file:ts_to_json.md
+> Follow [#file:ts_to_json.md](/docs/ts_to_json.md)
 
 #### Response
 
