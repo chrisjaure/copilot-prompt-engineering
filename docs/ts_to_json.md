@@ -1,5 +1,7 @@
 # Create mock data from types
 
+Follow this guide to convert a Typescript type into sample JSON.
+
 <!--
 
 Copilot Instructions:
