@@ -5,6 +5,7 @@ Follow this guide to create a PR that resolves an issue.
 <!--
 Copilot Instructions:
 - Input: GitHub issue number. Prompt if one was not provided.
+- Before following this guide, make sure there are no untracked or uncommitted files. If there are, ask the user if they would like to stash them to continue, or if they would like to cancel.
 -->
 
 ## Step 1: Read the issue description
@@ -13,7 +14,8 @@ Read an understand the ticket requirements.
 
 <!--
 Copilot Instructions:
-- Use the tool get_issue with the provided GitHub issue number
+- Use the tool get_issue with the provided GitHub issue number.
+- Use owner: chrisjaure when looking up issues in this repo.
 -->
 
 ## Step 2: Plan a solution
@@ -27,7 +29,10 @@ Copilot Instructions:
 
 ## Step 3: Execute the plan
 
-Take the plan and act on it. Create a new branch before starting your work.
+Take the plan and act on it:
+- Make sure there are no untracked or staged changes.
+- Create a new branch from `main` and switch to it.
+- Commit your changes to this branch.
 
 <!--
 Copilot Instructions:
