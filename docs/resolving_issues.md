@@ -42,9 +42,11 @@ Copilot Instructions:
 
 ## Step 4: Create a PR
 
-Make sure all your changes are commited to the branch and submit a PR with a brief summary of the changes.
+- Make sure all of your changes are staged and committed to the local branch.
+- Push the changes to the remote branch.
+- Open a PR with a brief summary of the changes.
 
 <!--
 Copilot Instructions:
-- Use the tool create_pull_request
+- Use the tool create_pull_request to open the pull request after the remote branch has been updated.
 -->

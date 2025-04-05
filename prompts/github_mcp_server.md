@@ -10,8 +10,7 @@ Before prompting, make sure you're using [agent mode](https://code.visualstudio.
 
 ## Response
 
-> ...
-> Let me know the GitHub issue number to proceed!
+> Got it! I will follow the instructions in the resolving_issues.md file when resolving issues. Let me know if you have a specific GitHub issue number to work on.
 
 ## Prompt
 
@@ -31,14 +30,26 @@ Before prompting, make sure you're using [agent mode](https://code.visualstudio.
 
 > Next, I will create a new branch and start working on the document.
 
-> Run `create_branch`
+> `git status --porcelain`
 
-> I have created a new branch named debugging-common-errors-doc to work on the document. Now, I will proceed to create the debugging_common_errors.md file under the docs directory with the required content.
+> There are no untracked or uncommitted files, so I can proceed with creating a new branch and working on the document. I'll create a branch named debugging-common-errors and switch to it.
 
-> debugging_common_errors.md+58-1
+> `git checkout -b debugging-common-errors main`
 
-> The debugging_common_errors.md file has been created with the required sections and content. Next, I will commit the changes and create a pull request for review.
+> I have successfully created and switched to a new branch named debugging-common-errors. Now, I will create the debugging_common_errors.md document under the docs directory and populate it with the required content.
+
+> debugging_common_errors.md+22-25
+
+> The document debugging_common_errors.md has been successfully created with all the required sections. Next, I will commit the changes to the debugging-common-errors branch.
+
+> `git add docs/debugging_common_errors.md && git commit -m "Add debugging_common_errors.md with common errors and best practices"`
+
+> The new document has been created and committed successfully.
+
+> `git push origin debugging-common-errors`
+
+> The changes in the debugging-common-errors branch have been successfully pushed to the remote repository. I will now proceed to create the pull request.
 
 > Run `create_pull_request`
 
-> 
+> The pull request has been successfully created. It includes the new debugging_common_errors.md document with all the required sections. You can view and review the pull request [here](https://github.com/chrisjaure/copilot-prompt-engineering/pull/3). Let me know if there's anything else you'd like to do!
