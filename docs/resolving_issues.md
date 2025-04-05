@@ -37,6 +37,7 @@ Take the plan and act on it:
 <!--
 Copilot Instructions:
 - Modify the files locally. DO NOT modify files using GitHub tools like `create_or_update_file`
+- Create a new branch locally. DO NOT use `create_branch` which only creates it remotely.
 -->
 
 ## Step 4: Create a PR
